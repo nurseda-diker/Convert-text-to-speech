@@ -5,9 +5,6 @@ import pygame as pg
 from pygame import mixer
 
 
-
-
-
 class text_to_speech(object):
   file_name=input('Kaydedilecek dosyanın ismini giriniz:')
   
@@ -95,27 +92,4 @@ root.config(bg='white')
 root.title("Text to Speech")
 uyg=text_to_speech()
 mainloop()
-
-
-
-
-
-
-  
-
-  
-
- 
-
-
-
-
-
-
-
-    
-#scale yap,play kısmı çalışmıyor
-
-
-
 
